@@ -1,0 +1,144 @@
+!!! URxvt stuff !!!
+
+Xft.lcdfilter: lcddefault
+Xft.antialias: true
+Xft.autohint: 0
+Xft.hinting: true
+Xft.hintstyle: hintslight
+Xft.rgba: rgb
+Xft.dpi: 150
+
+!URxvt*depth: 24
+URxvt*geometry: 90x25
+URxvt.letterSpace: -1
+URxvt.cursorBlink: 1
+
+! Set the font
+!URxvt*font: xft:lemon:pixelsize=12:antialias=false
+!URxvt*boldFont: xft:lemon:pixelsize=12:antialias=false
+!URxvt.font: xft:gohufont:pixelsize=12
+!URxvt.boldFont: xft:gohufont:pixelsize=12
+URxvt.font: xft:overpass mono:pixelsize=28
+URxvt.boldFont: xft:overpass mono:pixelsize=28
+
+! Disable scrollbar
+URxvt.scrollBar: false
+
+! Set terminal padding
+URxvt.internalBorder:    10
+URxvt.externalBorder:    10
+
+! Enables copy/paste with Ctrl-Shift-C/V
+URxvt.iso14755: false
+URxvt.iso14755_52: false
+URxvt.perl-ext-common: default,clipboard
+URxvt.keysym.Shift-Control-C: perl:clipboard:copy
+URxvt.keysym.Shift-Control-V: perl:clipboard:paste
+
+
+! -----------------------------------------------------------------------------
+! File: gruvbox-urxvt256.xresources
+! Description: Retro groove colorscheme generalized
+! Author: morhetz <morhetz@gmail.com>
+! Source: https://github.com/morhetz/gruvbox-generalized
+! Last Modified: 13 Dec 2013
+! -----------------------------------------------------------------------------
+
+!! colors
+!*.cursorColor:  #ebdbb2
+!! hard contrast: *background: #1d2021
+!*.background: #282828
+!! soft contrast: *background: #32302f
+!*.foreground: #ebdbb2
+!! Black + DarkGrey
+!*.color0:  #282828
+!*.color8:  #928374
+!! DarkRed + Red
+!*.color1:  #cc241d
+!*.color9:  #fb4934
+!! DarkGreen + Green
+!*.color2:  #98971a
+!*.color10: #b8bb26
+!! DarkYellow + Yellow
+!*.color3:  #d79921
+!*.color11: #fabd2f
+!! DarkBlue + Blue
+!*.color4:  #458588
+!*.color12: #83a598
+!! DarkMagenta + Magenta
+!*.color5:  #b16286
+!*.color13: #d3869b
+!! DarkCyan + Cyan
+!*.color6:  #689d6a
+!*.color14: #8ec07c
+!! LightGrey + White
+!*.color7:  #a89984
+!*.color15: #ebdbb2
+!! for 256 color stuff
+!*.color24:  #076678
+!*.color66:  #427b58
+!*.color88:  #9d0006
+!*.color96:  #8f3f71
+!*.color100: #79740e
+!*.color108: #8ec07c
+!*.color109: #83a598
+!*.color130: #af3a03
+!*.color136: #b57614
+!*.color142: #b8bb26
+!*.color167: #fb4934
+!*.color175: #d3869b
+!*.color208: #fe8019
+!*.color214: #fabd2f
+!*.color223: #ebdbb2
+!*.color228: #f4e8ba
+!*.color229: #fdf4c1
+!*.color230: #ffffc8
+!*.color234: #1d2021
+!*.color235: #282828
+!*.color236: #32302f
+!*.color237: #3c3836
+!*.color239: #504945
+!*.color241: #665c54
+!*.color243: #7c6f64
+!*.color244: #928374
+!*.color245: #928374
+!*.color246: #a89984
+!*.color248: #bdae93
+!*.color250: #d5c4a1
+
+! special
+*.foreground:   #f5f5f5
+*.background:   #383c4a
+*.cursorColor:  #f5f5f5
+
+! black
+*.color0:       #212121
+*.color8:       #424242
+
+! red
+*.color1:       #d95f69
+*.color9:       #e57373
+
+! green
+*.color2:       #aed581
+*.color10:      #c5e1a5
+
+! yellow
+*.color3:       #ffd54f
+*.color11:      #ffe082
+
+! blue
+*.color4:       #80cbc4
+*.color12:      #b2dfdb
+
+! magenta
+*.color5:       #f06292
+*.color13:      #f48fb1
+
+! cyan
+*.color6:       #80deea
+*.color14:      #b2ebf2
+
+! white
+*.color7:       #d3d7cf
+*.color15:      #f5f5f5
