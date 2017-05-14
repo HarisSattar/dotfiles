@@ -6,7 +6,7 @@ Xft.autohint: 0
 Xft.hinting: true
 Xft.hintstyle: hintslight
 Xft.rgba: rgb
-Xft.dpi: 150
+Xft.dpi: 96
 
 !URxvt*depth: 24
 URxvt*geometry: 90x25
@@ -35,110 +35,94 @@ URxvt.perl-ext-common: default,clipboard
 URxvt.keysym.Shift-Control-C: perl:clipboard:copy
 URxvt.keysym.Shift-Control-V: perl:clipboard:paste
 
+!! special
+!*.foreground:   #f5f5f5
+!*.background:   #383c4a
+!*.cursorColor:  #f5f5f5
+!
+!! black
+!*.color0:       #212121
+!*.color8:       #424242
+!
+!! red
+!*.color1:       #d95f69
+!*.color9:       #e57373
+!
+!! green
+!*.color2:       #aed581
+!*.color10:      #c5e1a5
+!
+!! yellow
+!*.color3:       #ffd54f
+!*.color11:      #ffe082
+!
+!! blue
+!*.color4:       #80cbc4
+!*.color12:      #b2dfdb
+!
+!! magenta
+!*.color5:       #f06292
+!*.color13:      #f48fb1
+!
+!! cyan
+!*.color6:       #80deea
+!*.color14:      #b2ebf2
+!
+!! white
+!*.color7:       #d3d7cf
+!*.color15:      #f5f5f5
 
-! -----------------------------------------------------------------------------
-! File: gruvbox-urxvt256.xresources
-! Description: Retro groove colorscheme generalized
-! Author: morhetz <morhetz@gmail.com>
-! Source: https://github.com/morhetz/gruvbox-generalized
-! Last Modified: 13 Dec 2013
-! -----------------------------------------------------------------------------
+! Base16 Ashes
+! Scheme: Jannik Siebert (https://github.com/janniks)
 
-!! colors
-!*.cursorColor:  #ebdbb2
-!! hard contrast: *background: #1d2021
-!*.background: #282828
-!! soft contrast: *background: #32302f
-!*.foreground: #ebdbb2
-!! Black + DarkGrey
-!*.color0:  #282828
-!*.color8:  #928374
-!! DarkRed + Red
-!*.color1:  #cc241d
-!*.color9:  #fb4934
-!! DarkGreen + Green
-!*.color2:  #98971a
-!*.color10: #b8bb26
-!! DarkYellow + Yellow
-!*.color3:  #d79921
-!*.color11: #fabd2f
-!! DarkBlue + Blue
-!*.color4:  #458588
-!*.color12: #83a598
-!! DarkMagenta + Magenta
-!*.color5:  #b16286
-!*.color13: #d3869b
-!! DarkCyan + Cyan
-!*.color6:  #689d6a
-!*.color14: #8ec07c
-!! LightGrey + White
-!*.color7:  #a89984
-!*.color15: #ebdbb2
-!! for 256 color stuff
-!*.color24:  #076678
-!*.color66:  #427b58
-!*.color88:  #9d0006
-!*.color96:  #8f3f71
-!*.color100: #79740e
-!*.color108: #8ec07c
-!*.color109: #83a598
-!*.color130: #af3a03
-!*.color136: #b57614
-!*.color142: #b8bb26
-!*.color167: #fb4934
-!*.color175: #d3869b
-!*.color208: #fe8019
-!*.color214: #fabd2f
-!*.color223: #ebdbb2
-!*.color228: #f4e8ba
-!*.color229: #fdf4c1
-!*.color230: #ffffc8
-!*.color234: #1d2021
-!*.color235: #282828
-!*.color236: #32302f
-!*.color237: #3c3836
-!*.color239: #504945
-!*.color241: #665c54
-!*.color243: #7c6f64
-!*.color244: #928374
-!*.color245: #928374
-!*.color246: #a89984
-!*.color248: #bdae93
-!*.color250: #d5c4a1
+#define base00 #1C2023
+#define base01 #393F45
+#define base02 #565E65
+#define base03 #747C84
+#define base04 #ADB3BA
+#define base05 #C7CCD1
+#define base06 #DFE2E5
+#define base07 #F3F4F5
+#define base08 #C7AE95
+#define base09 #C7C795
+#define base0A #AEC795
+#define base0B #95C7AE
+#define base0C #95AEC7
+#define base0D #AE95C7
+#define base0E #C795AE
+#define base0F #C79595
 
-! special
-*.foreground:   #f5f5f5
-*.background:   #383c4a
-*.cursorColor:  #f5f5f5
+*.foreground:   base05
+#ifdef background_opacity
+*.background:   [background_opacity]base00
+#else
+*.background:   base00
+#endif
+*.cursorColor:  base05
 
-! black
-*.color0:       #212121
-*.color8:       #424242
+*.color0:       base00
+*.color1:       base08
+*.color2:       base0B
+*.color3:       base0A
+*.color4:       base0D
+*.color5:       base0E
+*.color6:       base0C
+*.color7:       base05
 
-! red
-*.color1:       #d95f69
-*.color9:       #e57373
+*.color8:       base03
+*.color9:       base08
+*.color10:      base0B
+*.color11:      base0A
+*.color12:      base0D
+*.color13:      base0E
+*.color14:      base0C
+*.color15:      base07
 
-! green
-*.color2:       #aed581
-*.color10:      #c5e1a5
-
-! yellow
-*.color3:       #ffd54f
-*.color11:      #ffe082
-
-! blue
-*.color4:       #80cbc4
-*.color12:      #b2dfdb
-
-! magenta
-*.color5:       #f06292
-*.color13:      #f48fb1
-
-! cyan
-*.color6:       #80deea
-*.color14:      #b2ebf2
-
-! white
-*.color7:       #d3d7cf
-*.color15:      #f5f5f5
+! Note: colors beyond 15 might not be loaded (e.g., xterm, urxvt),
+! use 'shell' template to set these if necessary
+*.color16:      base09
+*.color17:      base0F
+*.color18:      base01
+*.color19:      base02
+*.color20:      base04
+*.color21:      base06

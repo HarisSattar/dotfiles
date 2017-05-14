@@ -135,35 +135,35 @@ bindsym $mod+Shift+e exec "i3-nagbar -t warning -m 'You pressed the exit shortcu
 
 # resize window (you can also use the mouse for that)
 mode "resize" {
-		# These bindings trigger as soon as you enter the resize mode
+                # These bindings trigger as soon as you enter the resize mode
 
-		# Pressing left will shrink the window’s width.
-		# Pressing right will grow the window’s width.
-		# Pressing up will shrink the window’s height.
-		# Pressing down will grow the window’s height.
-		bindsym j resize shrink width 2 px or 2 ppt
-		bindsym k resize grow height 2 px or 2 ppt
-		bindsym l resize shrink height 2 px or 2 ppt
-		bindsym semicolon resize grow width 2 px or 2 ppt
+                # Pressing left will shrink the window’s width.
+                # Pressing right will grow the window’s width.
+                # Pressing up will shrink the window’s height.
+                # Pressing down will grow the window’s height.
+                bindsym j resize shrink width 2 px or 2 ppt
+                bindsym k resize grow height 2 px or 2 ppt
+                bindsym l resize shrink height 2 px or 2 ppt
+                bindsym semicolon resize grow width 2 px or 2 ppt
 
-		# same bindings, but for the arrow keys
-		bindsym Left resize shrink width 2 px or 2 ppt
-		bindsym Down resize grow height 2 px or 2 ppt
-		bindsym Up resize shrink height 2 px or 2 ppt
-		bindsym Right resize grow width 2 px or 2 ppt
+                # same bindings, but for the arrow keys
+                bindsym Left resize shrink width 2 px or 2 ppt
+                bindsym Down resize grow height 2 px or 2 ppt
+                bindsym Up resize shrink height 2 px or 2 ppt
+                bindsym Right resize grow width 2 px or 2 ppt
 
-		# back to normal: Enter or Escape
-		bindsym Return mode "default"
-		bindsym Escape mode "default"
+                # back to normal: Enter or Escape
+                bindsym Return mode "default"
+                bindsym Escape mode "default"
 }
 
 bindsym $mod+r mode "resize"
 
 
 # Window colors            border          background      text            indicator
-client.focused             #2E343c         #83a598         #ffffff         #2E343c
-client.focused_inactive    #2E343c         #458588         #cccccc         #2E343c
-client.unfocused           #2E343c         #458588         #cccccc         #2E343c
+client.focused             #2E343c         #72808e         #ffffff         #2E343c
+client.focused_inactive    #2E343c         #393F45         #cccccc         #2E343c
+client.unfocused           #2E343c         #393F45         #cccccc         #2E343c
 client.urgent              #2E343c         #242930         #ffffff         #2E343c
 
 # i3bar
@@ -256,9 +256,9 @@ bindsym $mod+g exec --no-startup-id google-chrome-stable
 set $wall ~/Downloads/wallpaper.jpg
 exec_always --no-startup-id "sleep 1; feh --bg-center $wall"
 
-# class                 	border  	backgr. 	text    	indicator
-#client.focused          	#ffffff 	#2E343c 	#ffffff 	#2E343c
-#client.focused_inactive 	#2E343c 	#2E343c 	#cccccc 	#2E343c
-##client.unfocused        	#2E343c 	#2E343c 	#cccccc 	#2E343c
-#client.unfocused        	#dbdbdb		#2E343c 	#cccccc 	#2E343c
-#client.urgent           	#2E343c 	#2E343c 	#ffffff 	#2E343c
+# class                         border          backgr.         text            indicator
+#client.focused                 #ffffff         #2E343c         #ffffff         #2E343c
+#client.focused_inactive        #2E343c         #2E343c         #cccccc         #2E343c
+##client.unfocused              #2E343c         #2E343c         #cccccc         #2E343c
+#client.unfocused               #dbdbdb         #2E343c         #cccccc         #2E343c
+#client.urgent                  #2E343c         #2E343c         #ffffff         #2E343c
