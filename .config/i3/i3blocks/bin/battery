@@ -1,0 +1,34 @@
+#!/usr/bin/env bash
+source $(dirname $0)/_colors
+
+path=$(upower -e | grep 'battery_')
+if [[ -z "$path" ]]; then
+  exit 3 # no battery
+fi
+
+info=$(upower -i "$path")
+perc=$(echo "$info" | awk '/percentage:/ { print $2 }' | sed 's/%//')
+time=$(echo "$info" | awk '/time to (empty|full):/ { printf "%.1s %.0f%.1s", $3, $4, $5 }' | sed 'y/ef/↓↑/')
+
+# full text
+if [[ -n "$time" ]]; then
+  echo "${perc} $time "
+else
+  echo "${perc} "
+fi
+
+# short text
+echo
+
+# color
+if (( $(echo "$perc > 50" | bc -l) )); then
+  echo ${base07} # white
+elif (( $(echo "$perc > 25" | bc -l) )); then
+  echo ${base0A} # yellow
+elif (( $(echo "$perc > 10" | bc -l) )); then
+  echo ${base09} # orange
+else
+  echo ${base08} # red
+fi
+
+

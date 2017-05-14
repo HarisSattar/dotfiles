@@ -1,0 +1,763 @@
+{
+	"folder_history":
+	[
+	],
+	"last_version": 3126,
+	"last_window_id": 4,
+	"log_indexing": false,
+	"settings":
+	{
+		"new_window_height": 2105.0,
+		"new_window_settings":
+		{
+			"auto_complete":
+			{
+				"selected_items":
+				[
+					[
+						"root",
+						"getRoot"
+					]
+				]
+			},
+			"build_system_choices":
+			[
+			],
+			"build_varint": "",
+			"command_palette":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"console":
+			{
+				"height": 257.0,
+				"history":
+				[
+					"import urllib.request,os,hashlib; h = 'df21e130d211cfc94d9b0905775a7c0f' + '1e3d39e33b79698005270310898eea76'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+				]
+			},
+			"distraction_free":
+			{
+				"menu_visible": true,
+				"show_minimap": false,
+				"show_open_files": false,
+				"show_tabs": false,
+				"side_bar_visible": false,
+				"status_bar_visible": false
+			},
+			"file_history":
+			[
+				"/home/haris/cs301/proj1/GaussianElimination.java",
+				"/home/haris/Downloads/SourceCodeForReaders4e/33Chapter25/25.29.java",
+				"/home/haris/Downloads/SourceCodeForReaders4e/33Chapter25/25.30.java",
+				"/home/haris/Downloads/SourceCodeForReaders4e/33Chapter25/25.32.java",
+				"/home/haris/cs241/Node.java",
+				"/home/haris/cs241/BSTTest.java",
+				"/home/haris/cs241/BinarySearchTree.java"
+			],
+			"find":
+			{
+				"height": 33.0
+			},
+			"find_in_files":
+			{
+				"height": 0.0,
+				"where_history":
+				[
+				]
+			},
+			"find_state":
+			{
+				"case_sensitive": false,
+				"find_history":
+				[
+					"right",
+					"removeFromRoot",
+					"removeEntry",
+					"root",
+					"predecessor",
+					"Node",
+					"node",
+					"Node",
+					"inOrderTraversal",
+					"x",
+					"E",
+					"e",
+					"E",
+					"getRight",
+					"successsor",
+					"getSuccessor",
+					"deleleNode",
+					"Node",
+					"intArray",
+					"largestNode",
+					"leftSubtreeRoot",
+					"rootData",
+					"rootNode",
+					"getRootNode",
+					"oldEntry",
+					"Child",
+					"BinaryNode",
+					"root",
+					"rootData",
+					"rootNode",
+					"addEntry",
+					"Node",
+					"findNode",
+					"k",
+					"delete",
+					"root",
+					"k",
+					"delete",
+					"root",
+					"preOrderTraversel",
+					"inOrderTraversal",
+					"Left",
+					"newData"
+				],
+				"highlight": true,
+				"in_selection": false,
+				"preserve_case": false,
+				"regex": false,
+				"replace_history":
+				[
+				],
+				"reverse": false,
+				"show_context": true,
+				"use_buffer2": true,
+				"whole_word": false,
+				"wrap": true
+			},
+			"incremental_find":
+			{
+				"height": 33.0
+			},
+			"input":
+			{
+				"height": 0.0
+			},
+			"menu_visible": true,
+			"output.find_results":
+			{
+				"height": 0.0
+			},
+			"pinned_build_system": "",
+			"replace":
+			{
+				"height": 62.0
+			},
+			"save_all_on_build": true,
+			"select_file":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"select_project":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"select_symbol":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"show_minimap": true,
+			"show_open_files": false,
+			"show_tabs": true,
+			"side_bar_visible": true,
+			"side_bar_width": 300.0,
+			"status_bar_visible": true,
+			"template_settings":
+			{
+			}
+		},
+		"new_window_width": 3840.0
+	},
+	"windows":
+	[
+		{
+			"auto_complete":
+			{
+				"selected_items":
+				[
+					[
+						"root",
+						"getRoot"
+					]
+				]
+			},
+			"buffers":
+			[
+				{
+					"file": "/home/haris/.zshrc",
+					"settings":
+					{
+						"buffer_size": 860,
+						"encoding": "UTF-8",
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "/home/haris/dotfiles/config",
+					"settings":
+					{
+						"buffer_size": 9050,
+						"encoding": "UTF-8",
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "/home/haris/dotfiles/.Xresources",
+					"settings":
+					{
+						"buffer_size": 2676,
+						"encoding": "UTF-8",
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "/home/haris/.Xresources",
+					"settings":
+					{
+						"buffer_size": 2677,
+						"encoding": "UTF-8",
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "/home/haris/.config/polybar/config",
+					"settings":
+					{
+						"buffer_size": 11250,
+						"encoding": "UTF-8",
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "/home/haris/.config/i3/config",
+					"settings":
+					{
+						"buffer_size": 8650,
+						"encoding": "UTF-8",
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "/home/haris/Downloads/colors.pl",
+					"settings":
+					{
+						"buffer_size": 1619,
+						"encoding": "UTF-8",
+						"line_ending": "Unix"
+					}
+				}
+			],
+			"build_system": "",
+			"build_system_choices":
+			[
+			],
+			"build_varint": "",
+			"command_palette":
+			{
+				"height": 360.0,
+				"last_filter": "pakins",
+				"selected_items":
+				[
+					[
+						"pakins",
+						"Package Control: Install Package"
+					]
+				],
+				"width": 755.0
+			},
+			"console":
+			{
+				"height": 257.0,
+				"history":
+				[
+					"import urllib.request,os,hashlib; h = 'df21e130d211cfc94d9b0905775a7c0f' + '1e3d39e33b79698005270310898eea76'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+				]
+			},
+			"distraction_free":
+			{
+				"menu_visible": true,
+				"show_minimap": false,
+				"show_open_files": false,
+				"show_tabs": false,
+				"side_bar_visible": false,
+				"status_bar_visible": false
+			},
+			"file_history":
+			[
+				"/home/haris/cs301/proj2/bisection function 1 root 1.txt",
+				"/home/haris/cs301/proj2/Roots.java",
+				"/home/haris/cs301/proj2/file.txt",
+				"/home/haris/cs264/lab1/lab1_a.asm",
+				"/home/haris/cs241/proj1/report.txt",
+				"/home/haris/cs301/proj1/GaussianElimination.java",
+				"/home/haris/cs241/proj1/BinarySearchTree.java",
+				"/home/haris/cs241/proj1/BSTTest.java",
+				"/home/haris/cs241/proj1/Node.java",
+				"/home/haris/.cache/.fr-HCAlT9/BSTTest.java",
+				"/home/haris/Downloads/SourceCodeForReaders4e/33Chapter25/25.29.java",
+				"/home/haris/Downloads/SourceCodeForReaders4e/33Chapter25/25.30.java",
+				"/home/haris/Downloads/SourceCodeForReaders4e/33Chapter25/25.32.java",
+				"/home/haris/cs241/Node.java",
+				"/home/haris/cs241/BSTTest.java",
+				"/home/haris/cs241/BinarySearchTree.java"
+			],
+			"find":
+			{
+				"height": 33.0
+			},
+			"find_in_files":
+			{
+				"height": 0.0,
+				"where_history":
+				[
+				]
+			},
+			"find_state":
+			{
+				"case_sensitive": false,
+				"find_history":
+				[
+					"ebdbb2",
+					"458588",
+					"2E343c",
+					"true error:",
+					",",
+					"true",
+					" true",
+					"tru",
+					"true error:",
+					" true error: 1",
+					"error",
+					"true error: ",
+					"c:",
+					"n: 1, c:",
+					"c:",
+					"error",
+					",",
+					"f(c):",
+					"true error: ",
+					"true error:",
+					",",
+					"error",
+					"f(c):",
+					"0.0",
+					" 0.0",
+					", f(c):",
+					", f(c): ",
+					"Bisection",
+					"bisection",
+					"Bisection",
+					"bisection",
+					"Bisection",
+					"secant-Raphson",
+					"Newton",
+					"newton",
+					"Newton",
+					"newton",
+					"Newton",
+					"newton",
+					"Newton",
+					"newton",
+					"Bisection",
+					"modifiedSecant",
+					", 0.001",
+					", 0.01",
+					"bisection",
+					"000000000000000001",
+					"0.00001",
+					"0.0000000000000001",
+					"30",
+					"funcOne",
+					"One",
+					"doCommand",
+					"right",
+					"removeFromRoot",
+					"removeEntry",
+					"root",
+					"predecessor",
+					"Node",
+					"node",
+					"Node",
+					"inOrderTraversal",
+					"x",
+					"E",
+					"e",
+					"E",
+					"getRight",
+					"successsor",
+					"getSuccessor",
+					"deleleNode",
+					"Node",
+					"intArray",
+					"largestNode",
+					"leftSubtreeRoot",
+					"rootData",
+					"rootNode",
+					"getRootNode",
+					"oldEntry",
+					"Child",
+					"BinaryNode",
+					"root",
+					"rootData",
+					"rootNode",
+					"addEntry",
+					"Node",
+					"findNode",
+					"k",
+					"delete",
+					"root",
+					"k",
+					"delete",
+					"root",
+					"preOrderTraversel",
+					"inOrderTraversal",
+					"Left",
+					"newData"
+				],
+				"highlight": true,
+				"in_selection": false,
+				"preserve_case": false,
+				"regex": false,
+				"replace_history":
+				[
+				],
+				"reverse": false,
+				"show_context": true,
+				"use_buffer2": true,
+				"whole_word": false,
+				"wrap": true
+			},
+			"groups":
+			[
+				{
+					"selected": 4,
+					"sheets":
+					[
+						{
+							"buffer": 0,
+							"file": "/home/haris/.zshrc",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 860,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										482,
+										482
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/Text/Plain text.tmLanguage"
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 4,
+							"type": "text"
+						},
+						{
+							"buffer": 1,
+							"file": "/home/haris/dotfiles/config",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 9050,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										9050,
+										9050
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/Text/Plain text.tmLanguage",
+									"tab_size": 8,
+									"translate_tabs_to_spaces": true
+								},
+								"translation.x": 0.0,
+								"translation.y": 1368.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 3,
+							"type": "text"
+						},
+						{
+							"buffer": 2,
+							"file": "/home/haris/dotfiles/.Xresources",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 2676,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										152,
+										152
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/Text/Plain text.tmLanguage"
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 2,
+							"type": "text"
+						},
+						{
+							"buffer": 3,
+							"file": "/home/haris/.Xresources",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 2677,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										1670,
+										1670
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/Text/Plain text.tmLanguage"
+								},
+								"translation.x": 0.0,
+								"translation.y": 2277.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 1,
+							"type": "text"
+						},
+						{
+							"buffer": 4,
+							"file": "/home/haris/.config/polybar/config",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 11250,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										353,
+										353
+									],
+									[
+										6810,
+										6810
+									],
+									[
+										7828,
+										7828
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/Text/Plain text.tmLanguage"
+								},
+								"translation.x": 0.0,
+								"translation.y": 10551.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 0,
+							"type": "text"
+						},
+						{
+							"buffer": 5,
+							"file": "/home/haris/.config/i3/config",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 8650,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										8650,
+										8650
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/Text/Plain text.tmLanguage",
+									"tab_size": 8,
+									"translate_tabs_to_spaces": true
+								},
+								"translation.x": 0.0,
+								"translation.y": 4554.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 5,
+							"type": "text"
+						},
+						{
+							"buffer": 6,
+							"file": "/home/haris/Downloads/colors.pl",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 1619,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										1619,
+										1619
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/Perl/Perl.sublime-syntax"
+								},
+								"translation.x": 0.0,
+								"translation.y": 180.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 6,
+							"type": "text"
+						}
+					]
+				}
+			],
+			"incremental_find":
+			{
+				"height": 33.0
+			},
+			"input":
+			{
+				"height": 0.0
+			},
+			"layout":
+			{
+				"cells":
+				[
+					[
+						0,
+						0,
+						1,
+						1
+					]
+				],
+				"cols":
+				[
+					0.0,
+					1.0
+				],
+				"rows":
+				[
+					0.0,
+					1.0
+				]
+			},
+			"menu_visible": true,
+			"output.find_results":
+			{
+				"height": 0.0
+			},
+			"pinned_build_system": "",
+			"position": "0,0,0,0,0,2575,85,3790,2110,3840,2160",
+			"project": "",
+			"replace":
+			{
+				"height": 62.0
+			},
+			"save_all_on_build": true,
+			"select_file":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"select_project":
+			{
+				"height": 782.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 594.0
+			},
+			"select_symbol":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"selected_group": 0,
+			"settings":
+			{
+			},
+			"show_minimap": true,
+			"show_open_files": false,
+			"show_tabs": true,
+			"side_bar_visible": true,
+			"side_bar_width": 300.0,
+			"status_bar_visible": true,
+			"template_settings":
+			{
+			},
+			"window_id": 1,
+			"workspace_name": ""
+		}
+	],
+	"workspaces":
+	{
+		"recent_workspaces":
+		[
+		]
+	}
+}

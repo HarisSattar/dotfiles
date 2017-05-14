@@ -1,0 +1,35 @@
+#!/usr/bin/env bash
+source $(dirname $0)/_colors
+
+info=$(nmcli -t -f 'ACTIVE,SSID,SIGNAL' dev wifi | awk '/^yes/')
+
+if [[ -z "$info" ]]; then
+  # full text
+  echo "-- "
+  # short text
+  echo
+  #color
+  echo ${base03}
+else
+  ssid=$(echo "$info" | cut -d ':' -f 2)
+  qual=$(echo "$info" | cut -d ':' -f 3)
+
+  # full text
+  echo "$ssid ($qual) "
+
+  # short text
+  echo
+
+  # color
+  if (( "$qual" > 60 )); then
+    echo ${base07}
+  elif (( "$qual" > 40 )); then
+    echo ${base0A}
+  elif (( "$qual" > 20 )); then
+    echo ${base09}
+  else
+    echo ${base08}
+  fi
+
+fi
+

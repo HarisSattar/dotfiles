@@ -1,0 +1,37 @@
+command=~/.i3/i3blocks/bin/$BLOCK_NAME
+markup=pango
+
+separator=false
+separator_block_width=10
+
+[title]
+interval=persist
+
+[wifi]
+label=   
+interval=5
+
+[ethernet]
+label=   
+interval=5
+
+[cpu]
+label=   
+interval=10
+
+[memory]
+label=   
+interval=5
+
+[volume]
+label=   
+interval=10
+signal=1
+
+[battery]
+label=   
+interval=10
+
+[datetime]
+label=   
+interval=5
